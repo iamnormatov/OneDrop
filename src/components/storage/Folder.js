@@ -1,7 +1,7 @@
 import React from 'react';
 import { FolderIcon } from '@heroicons/react/20/solid';
 import { Link } from 'react-router-dom';
-
+// .
 const Folder = ({ folder }) => {
     return (
         <Link className="flex items-center" to={{
