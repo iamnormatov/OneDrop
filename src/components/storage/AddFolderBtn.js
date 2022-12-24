@@ -4,7 +4,7 @@ import ConfirmAddFolder from './modals/ConfirmAddFolder';
 import { useAuth } from './../store/AuthStore';
 import { database } from '../../firebase';
 import { ROOT_FOLDER } from './../hooks/useFolder';
-
+// .
 const AddFolderBtn = ({ currentFolder }) => {
     const [open, setOpen] = useState(false);
     const { currentUser } = useAuth();
