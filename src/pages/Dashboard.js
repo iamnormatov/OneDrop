@@ -8,7 +8,7 @@ import FolderBreadcumps from './../components/storage/FolderBreadcumps';
 import { getStorage, ref, deleteObject } from "firebase/storage";
 import { useAuth } from '../components/store/AuthStore';
 import { doc, deleteDoc } from "firebase/firestore";
-
+// .
 const Dashboard = () => {
     const { id } = useParams();
     const { folder, childFolders, childFiles } = useFolder(id);
