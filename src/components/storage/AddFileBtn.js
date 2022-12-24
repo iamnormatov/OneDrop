@@ -6,7 +6,7 @@ import { useAuth } from './../store/AuthStore';
 import { ROOT_FOLDER } from './../hooks/useFolder';
 import { database } from './../../firebase';
 import { v4 as uuidV4 } from "uuid";
-
+// .
 const AddFileBtn = ({ currentFolder }) => {
     const [uplaodingFiles, setUploadingFiles] = useState([]);
     const { currentUser } = useAuth();
