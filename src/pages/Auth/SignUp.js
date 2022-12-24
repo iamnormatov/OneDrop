@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from '../../components/store/AuthStore';
 import { Oval } from 'react-loader-spinner';
 import Alert from '../../ui/alerts/Alert';
-
+// .
 const SignUp = () => {
     const emailRef = useRef();
     const passwordRef = useRef();
