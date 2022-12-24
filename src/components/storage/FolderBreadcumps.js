@@ -1,7 +1,7 @@
 import React from 'react';
 import { ROOT_FOLDER } from './../hooks/useFolder';
 import { Link } from 'react-router-dom';
-
+// .
 const FolderBreadcumps = ({ currentFolder }) => {
     let path = currentFolder === ROOT_FOLDER ? [] : [ROOT_FOLDER];
     if(currentFolder) path = [...path, ...currentFolder.path];
