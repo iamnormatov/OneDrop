@@ -1,6 +1,6 @@
 import React from 'react';
 import { DocumentIcon } from '@heroicons/react/20/solid';
-// .
+// ..
 const File = ({ file }) => {
     return (
         <a href={file.url}  className="flex items-center">
