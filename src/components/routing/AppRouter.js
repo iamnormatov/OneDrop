@@ -7,7 +7,7 @@ import PrivateRoute from './PrivateRoute';
 import Dashboard from './../../pages/Dashboard';
 import ForgotPassword from './../../pages/Auth/ForgotPassword';
 import UpdateProfile from './../../pages/Auth/UpdateProfile';
-// .
+// ..
 const AppRouter = () => {
     return (
         <Routes>
