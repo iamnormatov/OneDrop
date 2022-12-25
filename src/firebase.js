@@ -2,7 +2,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/compat/storage';
-// .
+// ..
 
 const app = firebase.initializeApp({
     apiKey: process.env.API_KEY || "AIzaSyD5j7MD5dD4kvjPPazgYI0Zy9C-ee10Mug",
